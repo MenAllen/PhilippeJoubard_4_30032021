@@ -144,6 +144,7 @@ a:hover {
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
+.d-bloc a:focus .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -777,6 +778,11 @@ h4 {
     text-decoration: underline!important;
 }
 
+.bold-link:hover,
+.bold-link:focus {
+    color: #FFFFFF!important;
+}
+
 .bgc-white {
     background-color: #FFFFFF;
 }
@@ -813,7 +819,8 @@ h4 {
     color: #333333!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
