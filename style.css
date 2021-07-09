@@ -730,13 +730,13 @@ p {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 20px 10px;
+    margin: 10px 10px;
 }
 
 .liste-partenaires {
     display: flex;
     max-width: 800px;
-    margin: 10px;
+    margin: 0px;
 }
 
 h2 {
